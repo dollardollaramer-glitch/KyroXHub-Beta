@@ -25,6 +25,8 @@ local UICorner_8 = Instance.new("UICorner")
 local TrowHack = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local UICorner_10 = Instance.new("UICorner")
+local ChatBypasser = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 
 --Properties:
 
@@ -187,9 +189,25 @@ UICorner_9.Parent = TrowHack
 
 UICorner_10.Parent = MainFrame
 
+ChatBypasser.Name = "ChatBypasser"
+ChatBypasser.Parent = MainFrame
+ChatBypasser.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+ChatBypasser.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChatBypasser.BorderSizePixel = 0
+ChatBypasser.Position = UDim2.new(0.691973984, 0, 0.277108431, 0)
+ChatBypasser.Size = UDim2.new(0, 93, 0, 47)
+ChatBypasser.Font = Enum.Font.SourceSans
+ChatBypasser.Text = "ChatBypasser (set ur language to Қазақ тілі*)"
+ChatBypasser.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatBypasser.TextScaled = true
+ChatBypasser.TextSize = 14.000
+ChatBypasser.TextWrapped = true
+
+UICorner_11.Parent = ChatBypasser
+
 -- Scripts:
 
-local function JXCYQ_fake_script() -- InfYield.LocalScript 
+local function PQFEFU_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
 	InfYield.MouseButton1Down:connect(function()
@@ -198,8 +216,8 @@ local function JXCYQ_fake_script() -- InfYield.LocalScript
 	end)
 	
 end
-coroutine.wrap(JXCYQ_fake_script)()
-local function RWJMK_fake_script() -- prisonlife.LocalScript 
+coroutine.wrap(PQFEFU_fake_script)()
+local function NWWQENZ_fake_script() -- prisonlife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	prisonlife.MouseButton1Down:connect(function()
@@ -208,8 +226,8 @@ local function RWJMK_fake_script() -- prisonlife.LocalScript
 	end)
 	
 end
-coroutine.wrap(RWJMK_fake_script)()
-local function UHJEJA_fake_script() -- Close.LocalScript 
+coroutine.wrap(NWWQENZ_fake_script)()
+local function VTNT_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local Close = script.Parent
@@ -219,8 +237,8 @@ local function UHJEJA_fake_script() -- Close.LocalScript
 		MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(UHJEJA_fake_script)()
-local function COZUGJ_fake_script() -- SanderXY.LocalScript 
+coroutine.wrap(VTNT_fake_script)()
+local function GURLQ_fake_script() -- SanderXY.LocalScript 
 	local script = Instance.new('LocalScript', SanderXY)
 
 	SanderXY.MouseButton1Down:connect(function()
@@ -229,8 +247,8 @@ local function COZUGJ_fake_script() -- SanderXY.LocalScript
 	end)
 	
 end
-coroutine.wrap(COZUGJ_fake_script)()
-local function WUGV_fake_script() -- BladeBall.LocalScript 
+coroutine.wrap(GURLQ_fake_script)()
+local function NYCFTFY_fake_script() -- BladeBall.LocalScript 
 	local script = Instance.new('LocalScript', BladeBall)
 
 	BladeBall.MouseButton1Down:connect(function()
@@ -238,8 +256,8 @@ local function WUGV_fake_script() -- BladeBall.LocalScript
 	end)
 	
 end
-coroutine.wrap(WUGV_fake_script)()
-local function NUIMQW_fake_script() -- TrowHack.LocalScript 
+coroutine.wrap(NYCFTFY_fake_script)()
+local function XPNA_fake_script() -- TrowHack.LocalScript 
 	local script = Instance.new('LocalScript', TrowHack)
 
 	TrowHack.MouseButton1Down:connect(function()
@@ -247,4 +265,14 @@ local function NUIMQW_fake_script() -- TrowHack.LocalScript
 	end)
 	
 end
-coroutine.wrap(NUIMQW_fake_script)()
+coroutine.wrap(XPNA_fake_script)()
+local function VEJFJ_fake_script() -- ChatBypasser.LocalScript 
+	local script = Instance.new('LocalScript', ChatBypasser)
+
+	ChatBypasser.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/QuorumHub1/QuorumHub/refs/heads/main/ChatBypasser.txt"))()
+	end)
+	
+end
+coroutine.wrap(VEJFJ_fake_script)()
