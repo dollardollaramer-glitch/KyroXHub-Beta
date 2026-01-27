@@ -7,15 +7,24 @@ local KyroXHub = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local SideFrame = Instance.new("Frame")
 local Logo = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local Credits = Instance.new("TextLabel")
-local InfYield = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
-local prisonlife = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local Close = Instance.new("TextButton")
-local SanderXY = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
+local InfYield = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local prisonlife = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SanderXY = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local BladeBall = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TrowHack = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 
 --Properties:
 
@@ -23,7 +32,6 @@ KyroXHub.Name = "KyroX Hub"
 KyroXHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 KyroXHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 KyroXHub.ResetOnSpawn = false
-
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = KyroXHub
@@ -56,6 +64,8 @@ Logo.TextScaled = true
 Logo.TextSize = 40.000
 Logo.TextWrapped = true
 
+UICorner.Parent = Logo
+
 TextLabel.Parent = SideFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -83,6 +93,10 @@ Credits.TextScaled = true
 Credits.TextSize = 40.000
 Credits.TextWrapped = true
 
+UICorner_2.Parent = Credits
+
+UICorner_3.Parent = SideFrame
+
 InfYield.Name = "InfYield"
 InfYield.Parent = MainFrame
 InfYield.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
@@ -95,7 +109,7 @@ InfYield.Text = "Inf yield"
 InfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
 InfYield.TextSize = 14.000
 
-UICorner.Parent = InfYield
+UICorner_4.Parent = InfYield
 
 prisonlife.Name = "prisonlife"
 prisonlife.Parent = MainFrame
@@ -109,7 +123,7 @@ prisonlife.Text = "Prison life script"
 prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
 prisonlife.TextSize = 14.000
 
-UICorner_2.Parent = prisonlife
+UICorner_5.Parent = prisonlife
 
 Close.Name = "Close"
 Close.Parent = MainFrame
@@ -125,6 +139,8 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
+UICorner_6.Parent = Close
+
 SanderXY.Name = "SanderXY"
 SanderXY.Parent = MainFrame
 SanderXY.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
@@ -137,31 +153,63 @@ SanderXY.Text = "SanderXY"
 SanderXY.TextColor3 = Color3.fromRGB(0, 0, 0)
 SanderXY.TextSize = 14.000
 
-UICorner_3.Parent = SanderXY
+UICorner_7.Parent = SanderXY
+
+BladeBall.Name = "BladeBall"
+BladeBall.Parent = MainFrame
+BladeBall.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+BladeBall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BladeBall.BorderSizePixel = 0
+BladeBall.Position = UDim2.new(0.234273314, 0, 0.277108431, 0)
+BladeBall.Size = UDim2.new(0, 93, 0, 47)
+BladeBall.Font = Enum.Font.SourceSans
+BladeBall.Text = "BladeBall"
+BladeBall.TextColor3 = Color3.fromRGB(0, 0, 0)
+BladeBall.TextSize = 14.000
+
+UICorner_8.Parent = BladeBall
+
+TrowHack.Name = "TrowHack"
+TrowHack.Parent = MainFrame
+TrowHack.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+TrowHack.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TrowHack.BorderSizePixel = 0
+TrowHack.Position = UDim2.new(0.468546629, 0, 0.277108431, 0)
+TrowHack.Size = UDim2.new(0, 93, 0, 47)
+TrowHack.Font = Enum.Font.SourceSans
+TrowHack.Text = "Trowhack (BACKDOOR ONLY)"
+TrowHack.TextColor3 = Color3.fromRGB(0, 0, 0)
+TrowHack.TextScaled = true
+TrowHack.TextSize = 14.000
+TrowHack.TextWrapped = true
+
+UICorner_9.Parent = TrowHack
+
+UICorner_10.Parent = MainFrame
 
 -- Scripts:
 
-local function OQSP_fake_script() -- InfYield.LocalScript 
+local function JXCYQ_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
-	InfYield.MouseButton1Down:connect(function()
+	TextButton.MouseButton1Down:connect(function()
 	
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 	
 end
-coroutine.wrap(OQSP_fake_script)()
-local function OBRSG_fake_script() -- prisonlife.LocalScript 
+coroutine.wrap(JXCYQ_fake_script)()
+local function RWJMK_fake_script() -- prisonlife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	prisonlife.MouseButton1Down:connect(function()
 		
-		loadstring(game:HttpGet("https://kohlslite.pages.dev/PrisonX.lua"))()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/MP5-Prison-Life-C00lhub-74755"))()
 	end)
 	
 end
-coroutine.wrap(OBRSG_fake_script)()
-local function UHPW_fake_script() -- Close.LocalScript 
+coroutine.wrap(RWJMK_fake_script)()
+local function UHJEJA_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local Close = script.Parent
@@ -171,8 +219,8 @@ local function UHPW_fake_script() -- Close.LocalScript
 		MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(UHPW_fake_script)()
-local function OIWN_fake_script() -- SanderXY.LocalScript 
+coroutine.wrap(UHJEJA_fake_script)()
+local function COZUGJ_fake_script() -- SanderXY.LocalScript 
 	local script = Instance.new('LocalScript', SanderXY)
 
 	SanderXY.MouseButton1Down:connect(function()
@@ -181,4 +229,22 @@ local function OIWN_fake_script() -- SanderXY.LocalScript
 	end)
 	
 end
-coroutine.wrap(OIWN_fake_script)()
+coroutine.wrap(COZUGJ_fake_script)()
+local function WUGV_fake_script() -- BladeBall.LocalScript 
+	local script = Instance.new('LocalScript', BladeBall)
+
+	BladeBall.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-Project-Stark-Free-Hub-59919"))()
+	end)
+	
+end
+coroutine.wrap(WUGV_fake_script)()
+local function NUIMQW_fake_script() -- TrowHack.LocalScript 
+	local script = Instance.new('LocalScript', TrowHack)
+
+	prisonlife.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Trowscript-backdoor-63356"))()
+	end)
+	
+end
+coroutine.wrap(NUIMQW_fake_script)()
