@@ -192,7 +192,7 @@ UICorner_10.Parent = MainFrame
 local function JXCYQ_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
-	TextButton.MouseButton1Down:connect(function()
+	InfYield.MouseButton1Down:connect(function()
 	
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
