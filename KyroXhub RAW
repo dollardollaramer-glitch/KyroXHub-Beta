@@ -8,25 +8,32 @@ local MainFrame = Instance.new("Frame")
 local SideFrame = Instance.new("Frame")
 local Logo = Instance.new("TextLabel")
 local UICorner = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
 local Credits = Instance.new("TextLabel")
 local UICorner_2 = Instance.new("UICorner")
 local UICorner_3 = Instance.new("UICorner")
-local InfYield = Instance.new("TextButton")
+local Scripts = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
-local prisonlife = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
 local UICorner_6 = Instance.new("UICorner")
-local SanderXY = Instance.new("TextButton")
+local ScriptsFrame = Instance.new("Frame")
+local InfYield = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local BladeBall = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local TrowHack = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local UICorner_10 = Instance.new("UICorner")
 local ChatBypasser = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local BladeBall = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local SanderXY = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TrowHack = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
+local prisonlife = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local ScriptFrameCloser = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -68,26 +75,13 @@ Logo.TextWrapped = true
 
 UICorner.Parent = Logo
 
-TextLabel.Parent = SideFrame
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0, 0, 0.140562251, 0)
-TextLabel.Size = UDim2.new(0, 100, 0, 187)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "SIDE BAR IS COMING SOON SORRY!"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
 Credits.Name = "Credits"
 Credits.Parent = SideFrame
 Credits.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Credits.BorderSizePixel = 0
-Credits.Position = UDim2.new(0, 0, 0.891566277, 0)
-Credits.Size = UDim2.new(0, 100, 0, 27)
+Credits.Position = UDim2.new(0, 0, 0.879518092, 0)
+Credits.Size = UDim2.new(0, 100, 0, 30)
 Credits.Font = Enum.Font.SourceSans
 Credits.Text = "Made by SynkNull"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -99,33 +93,19 @@ UICorner_2.Parent = Credits
 
 UICorner_3.Parent = SideFrame
 
-InfYield.Name = "InfYield"
-InfYield.Parent = MainFrame
-InfYield.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-InfYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
-InfYield.BorderSizePixel = 0
-InfYield.Position = UDim2.new(0.234273314, 0, 0.0562249012, 0)
-InfYield.Size = UDim2.new(0, 93, 0, 47)
-InfYield.Font = Enum.Font.SourceSans
-InfYield.Text = "Inf yield"
-InfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
-InfYield.TextSize = 14.000
+Scripts.Name = "Scripts"
+Scripts.Parent = SideFrame
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.100000001, 0, 0.140562251, 0)
+Scripts.Size = UDim2.new(0, 79, 0, 27)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
 
-UICorner_4.Parent = InfYield
-
-prisonlife.Name = "prisonlife"
-prisonlife.Parent = MainFrame
-prisonlife.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-prisonlife.BorderColor3 = Color3.fromRGB(0, 0, 0)
-prisonlife.BorderSizePixel = 0
-prisonlife.Position = UDim2.new(0.468546629, 0, 0.0562249012, 0)
-prisonlife.Size = UDim2.new(0, 93, 0, 47)
-prisonlife.Font = Enum.Font.SourceSans
-prisonlife.Text = "Prison life script"
-prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
-prisonlife.TextSize = 14.000
-
-UICorner_5.Parent = prisonlife
+UICorner_4.Parent = Scripts
 
 Close.Name = "Close"
 Close.Parent = MainFrame
@@ -141,60 +121,39 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-UICorner_6.Parent = Close
+UICorner_5.Parent = Close
 
-SanderXY.Name = "SanderXY"
-SanderXY.Parent = MainFrame
-SanderXY.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-SanderXY.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SanderXY.BorderSizePixel = 0
-SanderXY.Position = UDim2.new(0.691973984, 0, 0.0562249012, 0)
-SanderXY.Size = UDim2.new(0, 93, 0, 47)
-SanderXY.Font = Enum.Font.SourceSans
-SanderXY.Text = "SanderXY"
-SanderXY.TextColor3 = Color3.fromRGB(0, 0, 0)
-SanderXY.TextSize = 14.000
+UICorner_6.Parent = MainFrame
 
-UICorner_7.Parent = SanderXY
+ScriptsFrame.Name = "ScriptsFrame"
+ScriptsFrame.Parent = MainFrame
+ScriptsFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+ScriptsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsFrame.BorderSizePixel = 0
+ScriptsFrame.Position = UDim2.new(0.219088942, 0, -0.00374263176, 0)
+ScriptsFrame.Size = UDim2.new(0, 360, 0, 249)
+ScriptsFrame.Visible = false
 
-BladeBall.Name = "BladeBall"
-BladeBall.Parent = MainFrame
-BladeBall.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-BladeBall.BorderColor3 = Color3.fromRGB(0, 0, 0)
-BladeBall.BorderSizePixel = 0
-BladeBall.Position = UDim2.new(0.234273314, 0, 0.277108431, 0)
-BladeBall.Size = UDim2.new(0, 93, 0, 47)
-BladeBall.Font = Enum.Font.SourceSans
-BladeBall.Text = "BladeBall"
-BladeBall.TextColor3 = Color3.fromRGB(0, 0, 0)
-BladeBall.TextSize = 14.000
+InfYield.Name = "InfYield"
+InfYield.Parent = ScriptsFrame
+InfYield.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+InfYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfYield.BorderSizePixel = 0
+InfYield.Position = UDim2.new(0.0370510519, 0, 0.0562249012, 0)
+InfYield.Size = UDim2.new(0, 93, 0, 47)
+InfYield.Font = Enum.Font.SourceSans
+InfYield.Text = "Inf yield"
+InfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfYield.TextSize = 14.000
 
-UICorner_8.Parent = BladeBall
-
-TrowHack.Name = "TrowHack"
-TrowHack.Parent = MainFrame
-TrowHack.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-TrowHack.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TrowHack.BorderSizePixel = 0
-TrowHack.Position = UDim2.new(0.468546629, 0, 0.277108431, 0)
-TrowHack.Size = UDim2.new(0, 93, 0, 47)
-TrowHack.Font = Enum.Font.SourceSans
-TrowHack.Text = "Trowhack (BACKDOOR ONLY)"
-TrowHack.TextColor3 = Color3.fromRGB(0, 0, 0)
-TrowHack.TextScaled = true
-TrowHack.TextSize = 14.000
-TrowHack.TextWrapped = true
-
-UICorner_9.Parent = TrowHack
-
-UICorner_10.Parent = MainFrame
+UICorner_7.Parent = InfYield
 
 ChatBypasser.Name = "ChatBypasser"
-ChatBypasser.Parent = MainFrame
+ChatBypasser.Parent = ScriptsFrame
 ChatBypasser.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 ChatBypasser.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ChatBypasser.BorderSizePixel = 0
-ChatBypasser.Position = UDim2.new(0.691973984, 0, 0.277108431, 0)
+ChatBypasser.Position = UDim2.new(0.60308516, 0, 0.277108431, 0)
 ChatBypasser.Size = UDim2.new(0, 93, 0, 47)
 ChatBypasser.Font = Enum.Font.SourceSans
 ChatBypasser.Text = "ChatBypasser (set ur language to Қазақ тілі*)"
@@ -203,31 +162,126 @@ ChatBypasser.TextScaled = true
 ChatBypasser.TextSize = 14.000
 ChatBypasser.TextWrapped = true
 
-UICorner_11.Parent = ChatBypasser
+UICorner_8.Parent = ChatBypasser
+
+BladeBall.Name = "BladeBall"
+BladeBall.Parent = ScriptsFrame
+BladeBall.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+BladeBall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BladeBall.BorderSizePixel = 0
+BladeBall.Position = UDim2.new(0.0370510519, 0, 0.277108431, 0)
+BladeBall.Size = UDim2.new(0, 93, 0, 47)
+BladeBall.Font = Enum.Font.SourceSans
+BladeBall.Text = "BladeBall"
+BladeBall.TextColor3 = Color3.fromRGB(0, 0, 0)
+BladeBall.TextSize = 14.000
+
+UICorner_9.Parent = BladeBall
+
+SanderXY.Name = "SanderXY"
+SanderXY.Parent = ScriptsFrame
+SanderXY.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+SanderXY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SanderXY.BorderSizePixel = 0
+SanderXY.Position = UDim2.new(0.60308516, 0, 0.0562249012, 0)
+SanderXY.Size = UDim2.new(0, 93, 0, 47)
+SanderXY.Font = Enum.Font.SourceSans
+SanderXY.Text = "SanderXY"
+SanderXY.TextColor3 = Color3.fromRGB(0, 0, 0)
+SanderXY.TextSize = 14.000
+
+UICorner_10.Parent = SanderXY
+
+TrowHack.Name = "TrowHack"
+TrowHack.Parent = ScriptsFrame
+TrowHack.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+TrowHack.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TrowHack.BorderSizePixel = 0
+TrowHack.Position = UDim2.new(0.321324319, 0, 0.277108431, 0)
+TrowHack.Size = UDim2.new(0, 93, 0, 47)
+TrowHack.Font = Enum.Font.SourceSans
+TrowHack.Text = "Trowhack (BACKDOOR ONLY)"
+TrowHack.TextColor3 = Color3.fromRGB(0, 0, 0)
+TrowHack.TextScaled = true
+TrowHack.TextSize = 14.000
+TrowHack.TextWrapped = true
+
+UICorner_11.Parent = TrowHack
+
+UICorner_12.Parent = ScriptsFrame
+
+prisonlife.Name = "prisonlife"
+prisonlife.Parent = ScriptsFrame
+prisonlife.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+prisonlife.BorderColor3 = Color3.fromRGB(0, 0, 0)
+prisonlife.BorderSizePixel = 0
+prisonlife.Position = UDim2.new(0.321324319, 0, 0.0562249012, 0)
+prisonlife.Size = UDim2.new(0, 93, 0, 47)
+prisonlife.Font = Enum.Font.SourceSans
+prisonlife.Text = "Prison life script"
+prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
+prisonlife.TextSize = 14.000
+
+UICorner_13.Parent = prisonlife
+
+ScriptFrameCloser.Name = "ScriptFrameCloser"
+ScriptFrameCloser.Parent = ScriptsFrame
+ScriptFrameCloser.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+ScriptFrameCloser.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptFrameCloser.BorderSizePixel = 0
+ScriptFrameCloser.Position = UDim2.new(0.927542806, 0, 0, 0)
+ScriptFrameCloser.Size = UDim2.new(0, 27, 0, 27)
+ScriptFrameCloser.Font = Enum.Font.SourceSans
+ScriptFrameCloser.Text = "X"
+ScriptFrameCloser.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptFrameCloser.TextScaled = true
+ScriptFrameCloser.TextSize = 14.000
+ScriptFrameCloser.TextWrapped = true
+
+UICorner_14.Parent = ScriptFrameCloser
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.377440333, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "HomePage"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.216919735, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 120, 0, 249)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Updates: SIDEBAR IS HERE,and added one script"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function PQFEFU_fake_script() -- InfYield.LocalScript 
-	local script = Instance.new('LocalScript', InfYield)
+local function LKFF_fake_script() -- Scripts.LocalScript 
+	local script = Instance.new('LocalScript', Scripts)
 
-	InfYield.MouseButton1Down:connect(function()
+	local ScriptsButton = script.Parent
+	local ScriptsFrame = ScriptsButton.Parent.Parent.ScriptsFrame
 	
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	ScriptsButton.MouseButton1Down:connect(function()
+		ScriptsFrame.Visible = true
 	end)
-	
 end
-coroutine.wrap(PQFEFU_fake_script)()
-local function NWWQENZ_fake_script() -- prisonlife.LocalScript 
-	local script = Instance.new('LocalScript', prisonlife)
-
-	prisonlife.MouseButton1Down:connect(function()
-		
-		loadstring(game:HttpGet("https://rawscripts.net/raw/MP5-Prison-Life-C00lhub-74755"))()
-	end)
-	
-end
-coroutine.wrap(NWWQENZ_fake_script)()
-local function VTNT_fake_script() -- Close.LocalScript 
+coroutine.wrap(LKFF_fake_script)()
+local function DPRJ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local Close = script.Parent
@@ -237,36 +291,18 @@ local function VTNT_fake_script() -- Close.LocalScript
 		MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(VTNT_fake_script)()
-local function GURLQ_fake_script() -- SanderXY.LocalScript 
-	local script = Instance.new('LocalScript', SanderXY)
+coroutine.wrap(DPRJ_fake_script)()
+local function KJRD_fake_script() -- InfYield.LocalScript 
+	local script = Instance.new('LocalScript', InfYield)
 
-	SanderXY.MouseButton1Down:connect(function()
-		
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua"))()
+	InfYield.MouseButton1Down:connect(function()
+	
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 	
 end
-coroutine.wrap(GURLQ_fake_script)()
-local function NYCFTFY_fake_script() -- BladeBall.LocalScript 
-	local script = Instance.new('LocalScript', BladeBall)
-
-	BladeBall.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-Project-Stark-Free-Hub-59919"))()
-	end)
-	
-end
-coroutine.wrap(NYCFTFY_fake_script)()
-local function XPNA_fake_script() -- TrowHack.LocalScript 
-	local script = Instance.new('LocalScript', TrowHack)
-
-	TrowHack.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Trowscript-backdoor-63356"))()
-	end)
-	
-end
-coroutine.wrap(XPNA_fake_script)()
-local function VEJFJ_fake_script() -- ChatBypasser.LocalScript 
+coroutine.wrap(KJRD_fake_script)()
+local function NLXRDEY_fake_script() -- ChatBypasser.LocalScript 
 	local script = Instance.new('LocalScript', ChatBypasser)
 
 	ChatBypasser.MouseButton1Down:connect(function()
@@ -275,4 +311,53 @@ local function VEJFJ_fake_script() -- ChatBypasser.LocalScript
 	end)
 	
 end
-coroutine.wrap(VEJFJ_fake_script)()
+coroutine.wrap(NLXRDEY_fake_script)()
+local function VVEDJTD_fake_script() -- BladeBall.LocalScript 
+	local script = Instance.new('LocalScript', BladeBall)
+
+	BladeBall.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Blade-Ball-Project-Stark-Free-Hub-59919"))()
+	end)
+	
+end
+coroutine.wrap(VVEDJTD_fake_script)()
+local function NJXYU_fake_script() -- SanderXY.LocalScript 
+	local script = Instance.new('LocalScript', SanderXY)
+
+	SanderXY.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua"))()
+	end)
+	
+end
+coroutine.wrap(NJXYU_fake_script)()
+local function CFMWQVL_fake_script() -- TrowHack.LocalScript 
+	local script = Instance.new('LocalScript', TrowHack)
+
+	TrowHack.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Trowscript-backdoor-63356"))()
+	end)
+	
+end
+coroutine.wrap(CFMWQVL_fake_script)()
+local function QJMMC_fake_script() -- prisonlife.LocalScript 
+	local script = Instance.new('LocalScript', prisonlife)
+
+	prisonlife.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGet("https://rawscripts.net/raw/MP5-Prison-Life-C00lhub-74755"))()
+	end)
+	
+end
+coroutine.wrap(QJMMC_fake_script)()
+local function NJWHT_fake_script() -- ScriptFrameCloser.LocalScript 
+	local script = Instance.new('LocalScript', ScriptFrameCloser)
+
+	local ScriptFrameCloser = script.Parent
+	local ScriptsFrame = ScriptFrameCloser.Parent
+	
+	ScriptFrameCloser.MouseButton1Down:connect(function()
+		ScriptsFrame.Visible = false
+	end)
+end
+coroutine.wrap(NJWHT_fake_script)()
