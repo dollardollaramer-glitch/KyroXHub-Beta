@@ -20,23 +20,35 @@ local TextLabel_3 = Instance.new("TextLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local BladeBall = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local ChatBypasser = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
 local InfYield = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local SanderXY = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local TrowHack = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local prisonlife = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local AimBot = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local FLING = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local EzHub = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
 local UICorner_14 = Instance.new("UICorner")
+local HeadBang = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
+local Trollscript = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local JerkOff = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local sUNC = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local ExecutorDetector = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Orca = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local CoolHub = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 
 --Properties:
@@ -102,7 +114,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0, 0, 0.108433738, 0)
 TextLabel.Size = UDim2.new(0, 100, 0, 192)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "UPDATE:Updated ui, 3 new scripts, and join the discord		(discord link by the bottem left corner)"
+TextLabel.Text = "UPDATE: removed 1 script add 6 more scripts"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -148,7 +160,7 @@ TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0.779784739, 0, 0.120481931, 0)
 TextLabel_3.Size = UDim2.new(0, 131, 0, 47)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "V0.2.beta "
+TextLabel_3.Text = "V0.3.beta "
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
@@ -176,22 +188,6 @@ BladeBall.TextSize = 14.000
 
 UICorner_6.Parent = BladeBall
 
-ChatBypasser.Name = "ChatBypasser"
-ChatBypasser.Parent = ScrollingFrame
-ChatBypasser.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-ChatBypasser.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ChatBypasser.BorderSizePixel = 0
-ChatBypasser.Position = UDim2.new(0.0439965837, 0, 0.00764030265, 0)
-ChatBypasser.Size = UDim2.new(0, 93, 0, 47)
-ChatBypasser.Font = Enum.Font.SourceSans
-ChatBypasser.Text = "ChatBypasser (set ur language to Қазақ тілі*)"
-ChatBypasser.TextColor3 = Color3.fromRGB(0, 0, 0)
-ChatBypasser.TextScaled = true
-ChatBypasser.TextSize = 14.000
-ChatBypasser.TextWrapped = true
-
-UICorner_7.Parent = ChatBypasser
-
 InfYield.Name = "InfYield"
 InfYield.Parent = ScrollingFrame
 InfYield.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
@@ -204,7 +200,7 @@ InfYield.Text = "Inf yield"
 InfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
 InfYield.TextSize = 14.000
 
-UICorner_8.Parent = InfYield
+UICorner_7.Parent = InfYield
 
 SanderXY.Name = "SanderXY"
 SanderXY.Parent = ScrollingFrame
@@ -218,7 +214,7 @@ SanderXY.Text = "SanderXY"
 SanderXY.TextColor3 = Color3.fromRGB(0, 0, 0)
 SanderXY.TextSize = 14.000
 
-UICorner_9.Parent = SanderXY
+UICorner_8.Parent = SanderXY
 
 TrowHack.Name = "TrowHack"
 TrowHack.Parent = ScrollingFrame
@@ -234,7 +230,7 @@ TrowHack.TextScaled = true
 TrowHack.TextSize = 14.000
 TrowHack.TextWrapped = true
 
-UICorner_10.Parent = TrowHack
+UICorner_9.Parent = TrowHack
 
 prisonlife.Name = "prisonlife"
 prisonlife.Parent = ScrollingFrame
@@ -248,14 +244,14 @@ prisonlife.Text = "Prison life script"
 prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
 prisonlife.TextSize = 14.000
 
-UICorner_11.Parent = prisonlife
+UICorner_10.Parent = prisonlife
 
 AimBot.Name = "AimBot"
 AimBot.Parent = ScrollingFrame
 AimBot.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 AimBot.BorderColor3 = Color3.fromRGB(0, 0, 0)
 AimBot.BorderSizePixel = 0
-AimBot.Position = UDim2.new(0.364419818, 0, 0.250514269, 0)
+AimBot.Position = UDim2.new(0.0472769588, 0, 0.00754237641, 0)
 AimBot.Size = UDim2.new(0, 93, 0, 47)
 AimBot.Font = Enum.Font.SourceSans
 AimBot.Text = "AimBot (UNIVERSAL)"
@@ -264,7 +260,7 @@ AimBot.TextScaled = true
 AimBot.TextSize = 14.000
 AimBot.TextWrapped = true
 
-UICorner_12.Parent = AimBot
+UICorner_11.Parent = AimBot
 
 FLING.Name = "FLING"
 FLING.Parent = ScrollingFrame
@@ -280,7 +276,7 @@ FLING.TextScaled = true
 FLING.TextSize = 14.000
 FLING.TextWrapped = true
 
-UICorner_13.Parent = FLING
+UICorner_12.Parent = FLING
 
 EzHub.Name = "EzHub"
 EzHub.Parent = ScrollingFrame
@@ -296,9 +292,107 @@ EzHub.TextScaled = true
 EzHub.TextSize = 14.000
 EzHub.TextWrapped = true
 
-UICorner_14.Parent = EzHub
+UICorner_13.Parent = EzHub
 
-UICorner_15.Parent = ScrollingFrame
+UICorner_14.Parent = ScrollingFrame
+
+HeadBang.Name = "HeadBang"
+HeadBang.Parent = ScrollingFrame
+HeadBang.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+HeadBang.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HeadBang.BorderSizePixel = 0
+HeadBang.Position = UDim2.new(0.0435835496, 0, 0.368988156, 0)
+HeadBang.Size = UDim2.new(0, 93, 0, 47)
+HeadBang.Font = Enum.Font.SourceSans
+HeadBang.Text = "HeadBang"
+HeadBang.TextColor3 = Color3.fromRGB(0, 0, 0)
+HeadBang.TextSize = 14.000
+
+UICorner_15.Parent = HeadBang
+
+Trollscript.Name = "Trollscript"
+Trollscript.Parent = ScrollingFrame
+Trollscript.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+Trollscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Trollscript.BorderSizePixel = 0
+Trollscript.Position = UDim2.new(0.3622576, 0, 0.250514269, 0)
+Trollscript.Size = UDim2.new(0, 93, 0, 47)
+Trollscript.Font = Enum.Font.SourceSans
+Trollscript.Text = "SkyHub"
+Trollscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+Trollscript.TextSize = 14.000
+
+UICorner_16.Parent = Trollscript
+
+JerkOff.Name = "JerkOff"
+JerkOff.Parent = ScrollingFrame
+JerkOff.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+JerkOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JerkOff.BorderSizePixel = 0
+JerkOff.Position = UDim2.new(0.360726327, 0, 0.368988156, 0)
+JerkOff.Size = UDim2.new(0, 93, 0, 47)
+JerkOff.Font = Enum.Font.SourceSans
+JerkOff.Text = "Jerk off"
+JerkOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+JerkOff.TextSize = 14.000
+
+UICorner_17.Parent = JerkOff
+
+sUNC.Name = "sUNC"
+sUNC.Parent = ScrollingFrame
+sUNC.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+sUNC.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sUNC.BorderSizePixel = 0
+sUNC.Position = UDim2.new(0.669297755, 0, 0.368988156, 0)
+sUNC.Size = UDim2.new(0, 93, 0, 47)
+sUNC.Font = Enum.Font.SourceSans
+sUNC.Text = "sUNC Test"
+sUNC.TextColor3 = Color3.fromRGB(0, 0, 0)
+sUNC.TextSize = 14.000
+
+UICorner_18.Parent = sUNC
+
+ExecutorDetector.Name = "ExecutorDetector"
+ExecutorDetector.Parent = ScrollingFrame
+ExecutorDetector.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+ExecutorDetector.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorDetector.BorderSizePixel = 0
+ExecutorDetector.Position = UDim2.new(0.0435834602, 0, 0.485454023, 0)
+ExecutorDetector.Size = UDim2.new(0, 93, 0, 47)
+ExecutorDetector.Font = Enum.Font.SourceSans
+ExecutorDetector.Text = "Executor Detector"
+ExecutorDetector.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorDetector.TextSize = 14.000
+
+UICorner_19.Parent = ExecutorDetector
+
+Orca.Name = "Orca"
+Orca.Parent = ScrollingFrame
+Orca.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+Orca.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Orca.BorderSizePixel = 0
+Orca.Position = UDim2.new(0.360726327, 0, 0.487462044, 0)
+Orca.Size = UDim2.new(0, 93, 0, 47)
+Orca.Font = Enum.Font.SourceSans
+Orca.Text = "Orca"
+Orca.TextColor3 = Color3.fromRGB(0, 0, 0)
+Orca.TextSize = 14.000
+
+UICorner_20.Parent = Orca
+
+CoolHub.Name = "CoolHub"
+CoolHub.Parent = ScrollingFrame
+CoolHub.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+CoolHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CoolHub.BorderSizePixel = 0
+CoolHub.Position = UDim2.new(0.669297755, 0, 0.487462044, 0)
+CoolHub.Size = UDim2.new(0, 93, 0, 47)
+CoolHub.Font = Enum.Font.SourceSans
+CoolHub.Text = "CoolHub"
+CoolHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoolHub.TextSize = 14.000
+
+UICorner_21.Parent = CoolHub
 
 TextLabel_4.Parent = MainFrame
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -316,7 +410,7 @@ TextLabel_4.TextWrapped = true
 
 -- Scripts:
 
-local function NUCM_fake_script() -- MainFrame.LocalScript 
+local function WBLW_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -373,8 +467,8 @@ local function NUCM_fake_script() -- MainFrame.LocalScript
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(NUCM_fake_script)()
-local function TTVLD_fake_script() -- Close.LocalScript 
+coroutine.wrap(WBLW_fake_script)()
+local function OPTG_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local Close = script.Parent
@@ -384,8 +478,8 @@ local function TTVLD_fake_script() -- Close.LocalScript
 		MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(TTVLD_fake_script)()
-local function KCRMN_fake_script() -- BladeBall.LocalScript 
+coroutine.wrap(OPTG_fake_script)()
+local function DVEFJQ_fake_script() -- BladeBall.LocalScript 
 	local script = Instance.new('LocalScript', BladeBall)
 
 	BladeBall.MouseButton1Down:connect(function()
@@ -393,18 +487,8 @@ local function KCRMN_fake_script() -- BladeBall.LocalScript
 	end)
 	
 end
-coroutine.wrap(KCRMN_fake_script)()
-local function VPJUO_fake_script() -- ChatBypasser.LocalScript 
-	local script = Instance.new('LocalScript', ChatBypasser)
-
-	ChatBypasser.MouseButton1Down:connect(function()
-		
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/QuorumHub1/QuorumHub/refs/heads/main/ChatBypasser.txt"))()
-	end)
-	
-end
-coroutine.wrap(VPJUO_fake_script)()
-local function PQPTY_fake_script() -- InfYield.LocalScript 
+coroutine.wrap(DVEFJQ_fake_script)()
+local function HOFH_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
 	InfYield.MouseButton1Down:connect(function()
@@ -413,8 +497,8 @@ local function PQPTY_fake_script() -- InfYield.LocalScript
 	end)
 	
 end
-coroutine.wrap(PQPTY_fake_script)()
-local function RXRHBT_fake_script() -- SanderXY.LocalScript 
+coroutine.wrap(HOFH_fake_script)()
+local function GYOY_fake_script() -- SanderXY.LocalScript 
 	local script = Instance.new('LocalScript', SanderXY)
 
 	SanderXY.MouseButton1Down:connect(function()
@@ -423,27 +507,28 @@ local function RXRHBT_fake_script() -- SanderXY.LocalScript
 	end)
 	
 end
-coroutine.wrap(RXRHBT_fake_script)()
-local function AISG_fake_script() -- TrowHack.LocalScript 
+coroutine.wrap(GYOY_fake_script)()
+local function LRVABR_fake_script() -- TrowHack.LocalScript 
 	local script = Instance.new('LocalScript', TrowHack)
 
 	TrowHack.MouseButton1Down:connect(function()
+		
 		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Trowscript-backdoor-63356"))()
 	end)
 	
 end
-coroutine.wrap(AISG_fake_script)()
-local function YEIBT_fake_script() -- prisonlife.LocalScript 
+coroutine.wrap(LRVABR_fake_script)()
+local function SFXML_fake_script() -- prisonlife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	prisonlife.MouseButton1Down:connect(function()
 		
-		loadstring(game:HttpGet("https://kohlslite.pages.dev/PrisonX.lua"))()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Prison-Life-Silent-Aim-All-Weapons-Auto-Arrest-and-More-93866"))()
 	end)
 	
 end
-coroutine.wrap(YEIBT_fake_script)()
-local function MOKIYCZ_fake_script() -- AimBot.LocalScript 
+coroutine.wrap(SFXML_fake_script)()
+local function NOVWID_fake_script() -- AimBot.LocalScript 
 	local script = Instance.new('LocalScript', AimBot)
 
 	AimBot.MouseButton1Down:connect(function()
@@ -452,18 +537,21 @@ local function MOKIYCZ_fake_script() -- AimBot.LocalScript
 	end)
 	
 end
-coroutine.wrap(MOKIYCZ_fake_script)()
-local function COGXL_fake_script() -- FLING.LocalScript 
+coroutine.wrap(NOVWID_fake_script)()
+local function NCMGOQ_fake_script() -- FLING.LocalScript 
 	local script = Instance.new('LocalScript', FLING)
 
 	FLING.MouseButton1Down:connect(function()
 	
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-fling202640-57953"))()
+		--[[
+		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+	]]
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K1LAS1K/Ultimate-Fling-GUI/main/flingscript.lua"))()
 	end)
 	
 end
-coroutine.wrap(COGXL_fake_script)()
-local function PTDWLK_fake_script() -- EzHub.LocalScript 
+coroutine.wrap(NCMGOQ_fake_script)()
+local function HBFXMW_fake_script() -- EzHub.LocalScript 
 	local script = Instance.new('LocalScript', EzHub)
 
 	EzHub.MouseButton1Down:connect(function()
@@ -472,4 +560,204 @@ local function PTDWLK_fake_script() -- EzHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(PTDWLK_fake_script)()
+coroutine.wrap(HBFXMW_fake_script)()
+local function OESYALZ_fake_script() -- HeadBang.LocalScript 
+	local script = Instance.new('LocalScript', HeadBang)
+
+	HeadBang.MouseButton1Down:connect(function()
+	
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-FACEBANG-28199"))()
+	end)
+	
+end
+coroutine.wrap(OESYALZ_fake_script)()
+local function MQXI_fake_script() -- Trollscript.LocalScript 
+	local script = Instance.new('LocalScript', Trollscript)
+
+	Trollscript.MouseButton1Down:connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+	end)
+	
+end
+coroutine.wrap(MQXI_fake_script)()
+local function OPCW_fake_script() -- JerkOff.LocalScript 
+	local script = Instance.new('LocalScript', JerkOff)
+
+	JerkOff.MouseButton1Down:connect(function()
+	
+		loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+	end)
+	
+end
+coroutine.wrap(OPCW_fake_script)()
+local function STRVJK_fake_script() -- sUNC.LocalScript 
+	local script = Instance.new('LocalScript', sUNC)
+
+	sUNC.MouseButton1Down:connect(function()
+	
+		-- sUNC Estimation Script
+		-- Estimates executor compatibility based on API availability
+	
+		local tests = {
+			-- Core
+			{"getgenv", getgenv},
+			{"getrenv", getrenv},
+			{"getrawmetatable", getrawmetatable},
+			{"setreadonly", setreadonly},
+			{"isreadonly", isreadonly},
+			{"getnamecallmethod", getnamecallmethod},
+			{"setnamecallmethod", setnamecallmethod},
+	
+			-- Debug
+			{"debug.getupvalue", debug and debug.getupvalue},
+			{"debug.setupvalue", debug and debug.setupvalue},
+			{"debug.getconstants", debug and debug.getconstants},
+			{"debug.setconstant", debug and debug.setconstant},
+	
+			-- Closures / hooks
+			{"hookfunction", hookfunction},
+			{"newcclosure", newcclosure},
+			{"islclosure", islclosure},
+			{"iscclosure", iscclosure},
+	
+			-- Script / instance
+			{"getinstances", getinstances},
+			{"getscripts", getscripts},
+			{"getloadedmodules", getloadedmodules},
+	
+			-- Filesystem
+			{"readfile", readfile},
+			{"writefile", writefile},
+			{"appendfile", appendfile},
+			{"makefolder", makefolder},
+			{"listfiles", listfiles},
+			{"isfile", isfile},
+			{"isfolder", isfolder},
+	
+			-- Network
+			{"request", request or http_request or syn and syn.request},
+	
+			-- Misc
+			{"setclipboard", setclipboard},
+			{"queue_on_teleport", queue_on_teleport},
+			{"identifyexecutor", identifyexecutor},
+		}
+	
+		local supported = 0
+		local total = #tests
+		local missing = {}
+	
+		for _, test in ipairs(tests) do
+			local name, func = test[1], test[2]
+			if typeof(func) == "function" or func ~= nil then
+				supported += 1
+			else
+				table.insert(missing, name)
+			end
+		end
+	
+		local sUNC = math.floor((supported / total) * 100)
+	
+		print("====== sUNC Report ======")
+		print("Executor:", identifyexecutor and identifyexecutor() or "Unknown")
+		print("Supported APIs:", supported .. "/" .. total)
+		print("Estimated sUNC:", sUNC .. "%")
+	
+		if #missing > 0 then
+			print("Missing APIs:")
+			for _, v in ipairs(missing) do
+				print(" -", v)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(STRVJK_fake_script)()
+local function QFYT_fake_script() -- ExecutorDetector.LocalScript 
+	local script = Instance.new('LocalScript', ExecutorDetector)
+
+	ExecutorDetector.MouseButton1Down:connect(function()
+		-- sUNC Executor Detection Script
+	
+		local executor = "Unknown"
+	
+		local checks = {
+			["Synapse X"] = function()
+				return syn and syn.request
+			end,
+	
+			["Krnl"] = function()
+				return KRNL_LOADED or iskrnlclosure
+			end,
+	
+			["Script-Ware"] = function()
+				return identifyexecutor and identifyexecutor():lower():find("script-ware")
+			end,
+	
+			["Fluxus"] = function()
+				return fluxus or getexecutorname and getexecutorname():lower():find("fluxus")
+			end,
+	
+			["Electron"] = function()
+				return electron
+			end,
+	
+			["Oxygen U"] = function()
+				return oxygenu
+			end,
+	
+			["Comet"] = function()
+				return comet
+			end,
+	
+			["Evon"] = function()
+				return evon
+			end,
+	
+			["Trigon"] = function()
+				return trigon
+			end,
+		}
+	
+		-- Generic fallback (sUNC-friendly)
+		if identifyexecutor then
+			executor = identifyexecutor()
+		else
+			for name, check in pairs(checks) do
+				local success, result = pcall(check)
+				if success and result then
+					executor = name
+					break
+				end
+			end
+		end
+	
+		print("Executor Detected:", executor)
+	
+	end)
+	
+end
+coroutine.wrap(QFYT_fake_script)()
+local function WOYAPUF_fake_script() -- Orca.LocalScript 
+	local script = Instance.new('LocalScript', Orca)
+
+	Orca.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+	
+	end)
+	
+end
+coroutine.wrap(WOYAPUF_fake_script)()
+local function HCYHJNF_fake_script() -- CoolHub.LocalScript 
+	local script = Instance.new('LocalScript', CoolHub)
+
+	CoolHub.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
+	
+	end)
+	
+end
+coroutine.wrap(HCYHJNF_fake_script)()
