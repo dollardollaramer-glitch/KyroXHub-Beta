@@ -678,66 +678,71 @@ local function QFYT_fake_script() -- ExecutorDetector.LocalScript
 	local script = Instance.new('LocalScript', ExecutorDetector)
 
 	ExecutorDetector.MouseButton1Down:connect(function()
-		-- sUNC Executor Detection Script
-	
-		local executor = "Unknown"
-	
-		local checks = {
-			["Synapse X"] = function()
-				return syn and syn.request
-			end,
-	
-			["Krnl"] = function()
-				return KRNL_LOADED or iskrnlclosure
-			end,
-	
-			["Script-Ware"] = function()
-				return identifyexecutor and identifyexecutor():lower():find("script-ware")
-			end,
-	
-			["Fluxus"] = function()
-				return fluxus or getexecutorname and getexecutorname():lower():find("fluxus")
-			end,
-	
-			["Electron"] = function()
-				return electron
-			end,
-	
-			["Oxygen U"] = function()
-				return oxygenu
-			end,
-	
-			["Comet"] = function()
-				return comet
-			end,
-	
-			["Evon"] = function()
-				return evon
-			end,
-	
-			["Trigon"] = function()
-				return trigon
-			end,
-		}
-	
-		-- Generic fallback (sUNC-friendly)
-		if identifyexecutor then
-			executor = identifyexecutor()
-		else
-			for name, check in pairs(checks) do
-				local success, result = pcall(check)
-				if success and result then
-					executor = name
-					break
-				end
-			end
-		end
-	
-		print("Executor Detected:", executor)
-	
-	end)
-	
+		-- KyroX Hub Executor Compatibility Checker
+
+local executor = "Unknown"
+local compatibility = 0
+
+-- Executor detection
+if identifyexecutor then
+    executor = identifyexecutor()
+elseif getexecutorname then
+    executor = getexecutorname()
+elseif syn then
+    executor = "Synapse X"
+elseif KRNL_LOADED then
+    executor = "KRNL"
+elseif fluxus then
+    executor = "Fluxus"
+elseif isexecutorclosure then
+    executor = "Script-Ware"
+elseif pebc_execute then
+    executor = "Electron"
+elseif getgenv and getrenv then
+    executor = "Generic Lua Executor"
 end
+
+-- Normalize name
+executor = tostring(executor)
+
+-- KyroX Hub compatibility table
+local KyroXCompatibility = {
+    ["Synapse X"] = 100,
+    ["Script-Ware"] = 98,
+    ["KRNL"] = 85,
+    ["Fluxus"] = 80,
+    ["Electron"] = 70,
+    ["Comet"] = 65,
+    ["Oxygen U"] = 60,
+    ["Generic Lua Executor"] = 50,
+    ["Unknown"] = 40
+}
+
+compatibility = KyroXCompatibility[executor] or 45
+
+-- Output
+local message = string.format(
+    "[KyroX Hub]\nExecutor: %s\nCompatibility: %d%%",
+    executor,
+    compatibility
+)
+
+print(message)
+
+-- Optional notification
+pcall(function()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "KyroX Hub",
+        Text = "Executor: " .. executor .. " | Compatibility: " .. compatibility .. "%",
+        Duration = 6
+    })
+end)
+
+return {
+    Executor = executor,
+    Compatibility = compatibility
+}
+
 coroutine.wrap(QFYT_fake_script)()
 local function WOYAPUF_fake_script() -- Orca.LocalScript 
 	local script = Instance.new('LocalScript', Orca)
