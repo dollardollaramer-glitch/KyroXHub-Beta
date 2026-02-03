@@ -50,6 +50,7 @@ local UICorner_20 = Instance.new("UICorner")
 local CoolHub = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -408,9 +409,17 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
 
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.779632747, 0, 0.293172687, 0)
+ImageLabel.Size = UDim2.new(0, 123, 0, 124)
+ImageLabel.Image = "rbxassetid://103332356295539"
+
 -- Scripts:
 
-local function WBLW_fake_script() -- MainFrame.LocalScript 
+local function ARXK_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -467,8 +476,8 @@ local function WBLW_fake_script() -- MainFrame.LocalScript
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(WBLW_fake_script)()
-local function OPTG_fake_script() -- Close.LocalScript 
+coroutine.wrap(ARXK_fake_script)()
+local function TIQG_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local Close = script.Parent
@@ -478,8 +487,8 @@ local function OPTG_fake_script() -- Close.LocalScript
 		MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(OPTG_fake_script)()
-local function DVEFJQ_fake_script() -- BladeBall.LocalScript 
+coroutine.wrap(TIQG_fake_script)()
+local function QVSSFMG_fake_script() -- BladeBall.LocalScript 
 	local script = Instance.new('LocalScript', BladeBall)
 
 	BladeBall.MouseButton1Down:connect(function()
@@ -487,8 +496,8 @@ local function DVEFJQ_fake_script() -- BladeBall.LocalScript
 	end)
 	
 end
-coroutine.wrap(DVEFJQ_fake_script)()
-local function HOFH_fake_script() -- InfYield.LocalScript 
+coroutine.wrap(QVSSFMG_fake_script)()
+local function MCPB_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
 	InfYield.MouseButton1Down:connect(function()
@@ -497,8 +506,8 @@ local function HOFH_fake_script() -- InfYield.LocalScript
 	end)
 	
 end
-coroutine.wrap(HOFH_fake_script)()
-local function GYOY_fake_script() -- SanderXY.LocalScript 
+coroutine.wrap(MCPB_fake_script)()
+local function EOGWYN_fake_script() -- SanderXY.LocalScript 
 	local script = Instance.new('LocalScript', SanderXY)
 
 	SanderXY.MouseButton1Down:connect(function()
@@ -507,8 +516,8 @@ local function GYOY_fake_script() -- SanderXY.LocalScript
 	end)
 	
 end
-coroutine.wrap(GYOY_fake_script)()
-local function LRVABR_fake_script() -- TrowHack.LocalScript 
+coroutine.wrap(EOGWYN_fake_script)()
+local function WLIX_fake_script() -- TrowHack.LocalScript 
 	local script = Instance.new('LocalScript', TrowHack)
 
 	TrowHack.MouseButton1Down:connect(function()
@@ -517,8 +526,8 @@ local function LRVABR_fake_script() -- TrowHack.LocalScript
 	end)
 	
 end
-coroutine.wrap(LRVABR_fake_script)()
-local function SFXML_fake_script() -- prisonlife.LocalScript 
+coroutine.wrap(WLIX_fake_script)()
+local function JWJFQ_fake_script() -- prisonlife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	prisonlife.MouseButton1Down:connect(function()
@@ -527,8 +536,8 @@ local function SFXML_fake_script() -- prisonlife.LocalScript
 	end)
 	
 end
-coroutine.wrap(SFXML_fake_script)()
-local function NOVWID_fake_script() -- AimBot.LocalScript 
+coroutine.wrap(JWJFQ_fake_script)()
+local function NHUPPAI_fake_script() -- AimBot.LocalScript 
 	local script = Instance.new('LocalScript', AimBot)
 
 	AimBot.MouseButton1Down:connect(function()
@@ -537,8 +546,8 @@ local function NOVWID_fake_script() -- AimBot.LocalScript
 	end)
 	
 end
-coroutine.wrap(NOVWID_fake_script)()
-local function NCMGOQ_fake_script() -- FLING.LocalScript 
+coroutine.wrap(NHUPPAI_fake_script)()
+local function VZDDK_fake_script() -- FLING.LocalScript 
 	local script = Instance.new('LocalScript', FLING)
 
 	FLING.MouseButton1Down:connect(function()
@@ -550,8 +559,8 @@ local function NCMGOQ_fake_script() -- FLING.LocalScript
 	end)
 	
 end
-coroutine.wrap(NCMGOQ_fake_script)()
-local function HBFXMW_fake_script() -- EzHub.LocalScript 
+coroutine.wrap(VZDDK_fake_script)()
+local function AVSTLQK_fake_script() -- EzHub.LocalScript 
 	local script = Instance.new('LocalScript', EzHub)
 
 	EzHub.MouseButton1Down:connect(function()
@@ -560,8 +569,8 @@ local function HBFXMW_fake_script() -- EzHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(HBFXMW_fake_script)()
-local function OESYALZ_fake_script() -- HeadBang.LocalScript 
+coroutine.wrap(AVSTLQK_fake_script)()
+local function RWKUVX_fake_script() -- HeadBang.LocalScript 
 	local script = Instance.new('LocalScript', HeadBang)
 
 	HeadBang.MouseButton1Down:connect(function()
@@ -570,8 +579,8 @@ local function OESYALZ_fake_script() -- HeadBang.LocalScript
 	end)
 	
 end
-coroutine.wrap(OESYALZ_fake_script)()
-local function MQXI_fake_script() -- Trollscript.LocalScript 
+coroutine.wrap(RWKUVX_fake_script)()
+local function CRZDX_fake_script() -- Trollscript.LocalScript 
 	local script = Instance.new('LocalScript', Trollscript)
 
 	Trollscript.MouseButton1Down:connect(function()
@@ -580,8 +589,8 @@ local function MQXI_fake_script() -- Trollscript.LocalScript
 	end)
 	
 end
-coroutine.wrap(MQXI_fake_script)()
-local function OPCW_fake_script() -- JerkOff.LocalScript 
+coroutine.wrap(CRZDX_fake_script)()
+local function PGOZJ_fake_script() -- JerkOff.LocalScript 
 	local script = Instance.new('LocalScript', JerkOff)
 
 	JerkOff.MouseButton1Down:connect(function()
@@ -590,8 +599,8 @@ local function OPCW_fake_script() -- JerkOff.LocalScript
 	end)
 	
 end
-coroutine.wrap(OPCW_fake_script)()
-local function STRVJK_fake_script() -- sUNC.LocalScript 
+coroutine.wrap(PGOZJ_fake_script)()
+local function QIQV_fake_script() -- sUNC.LocalScript 
 	local script = Instance.new('LocalScript', sUNC)
 
 	sUNC.MouseButton1Down:connect(function()
@@ -673,78 +682,73 @@ local function STRVJK_fake_script() -- sUNC.LocalScript
 	end)
 	
 end
-coroutine.wrap(STRVJK_fake_script)()
-local function QFYT_fake_script() -- ExecutorDetector.LocalScript 
+coroutine.wrap(QIQV_fake_script)()
+local function RFJB_fake_script() -- ExecutorDetector.LocalScript 
 	local script = Instance.new('LocalScript', ExecutorDetector)
 
 	ExecutorDetector.MouseButton1Down:connect(function()
-		-- KyroX Hub Executor Compatibility Checker
-
-local executor = "Unknown"
-local compatibility = 0
-
--- Executor detection
-if identifyexecutor then
-    executor = identifyexecutor()
-elseif getexecutorname then
-    executor = getexecutorname()
-elseif syn then
-    executor = "Synapse X"
-elseif KRNL_LOADED then
-    executor = "KRNL"
-elseif fluxus then
-    executor = "Fluxus"
-elseif isexecutorclosure then
-    executor = "Script-Ware"
-elseif pebc_execute then
-    executor = "Electron"
-elseif getgenv and getrenv then
-    executor = "Generic Lua Executor"
+		-- sUNC Executor Detection Script
+	
+		local executor = "Unknown"
+	
+		local checks = {
+			["Synapse X"] = function()
+				return syn and syn.request
+			end,
+	
+			["Krnl"] = function()
+				return KRNL_LOADED or iskrnlclosure
+			end,
+	
+			["Script-Ware"] = function()
+				return identifyexecutor and identifyexecutor():lower():find("script-ware")
+			end,
+	
+			["Fluxus"] = function()
+				return fluxus or getexecutorname and getexecutorname():lower():find("fluxus")
+			end,
+	
+			["Electron"] = function()
+				return electron
+			end,
+	
+			["Oxygen U"] = function()
+				return oxygenu
+			end,
+	
+			["Comet"] = function()
+				return comet
+			end,
+	
+			["Evon"] = function()
+				return evon
+			end,
+	
+			["Trigon"] = function()
+				return trigon
+			end,
+		}
+	
+		-- Generic fallback (sUNC-friendly)
+		if identifyexecutor then
+			executor = identifyexecutor()
+		else
+			for name, check in pairs(checks) do
+				local success, result = pcall(check)
+				if success and result then
+					executor = name
+					break
+				end
+			end
+		end
+	
+		print("Executor Detected:", executor)
+	
+	end)
+	
 end
-
--- Normalize name
-executor = tostring(executor)
-
--- KyroX Hub compatibility table
-local KyroXCompatibility = {
-    ["Synapse X"] = 100,
-    ["Script-Ware"] = 98,
-    ["KRNL"] = 85,
-    ["Fluxus"] = 80,
-    ["Electron"] = 70,
-    ["Comet"] = 65,
-    ["Oxygen U"] = 60,
-    ["Generic Lua Executor"] = 50,
-    ["Unknown"] = 40
-}
-
-compatibility = KyroXCompatibility[executor] or 45
-
--- Output
-local message = string.format(
-    "[KyroX Hub]\nExecutor: %s\nCompatibility: %d%%",
-    executor,
-    compatibility
-)
-
-print(message)
-
--- Optional notification
-pcall(function()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "KyroX Hub",
-        Text = "Executor: " .. executor .. " | Compatibility: " .. compatibility .. "%",
-        Duration = 6
-    })
-end)
-
-return {
-    Executor = executor,
-    Compatibility = compatibility
-}
-
-coroutine.wrap(QFYT_fake_script)()
-local function WOYAPUF_fake_script() -- Orca.LocalScript 
+coroutine.wrap(RFJB_fake_script)()
+local function YMXE_fake_script() -- Orca.LocalScript 
 	local script = Instance.new('LocalScript', Orca)
 
 	Orca.MouseButton1Down:connect(function()
@@ -754,8 +758,8 @@ local function WOYAPUF_fake_script() -- Orca.LocalScript
 	end)
 	
 end
-coroutine.wrap(WOYAPUF_fake_script)()
-local function HCYHJNF_fake_script() -- CoolHub.LocalScript 
+coroutine.wrap(YMXE_fake_script)()
+local function MSDX_fake_script() -- CoolHub.LocalScript 
 	local script = Instance.new('LocalScript', CoolHub)
 
 	CoolHub.MouseButton1Down:connect(function()
@@ -765,4 +769,4 @@ local function HCYHJNF_fake_script() -- CoolHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(HCYHJNF_fake_script)()
+coroutine.wrap(MSDX_fake_script)()
