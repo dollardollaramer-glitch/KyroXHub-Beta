@@ -415,7 +415,7 @@ ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.779632747, 0, 0.293172687, 0)
 ImageLabel.Size = UDim2.new(0, 123, 0, 124)
-ImageLabel.Image = "rbxassetid://103332356295539"
+ImageLabel.Image = "rbxassetid://90239247275771"
 
 -- Scripts:
 
