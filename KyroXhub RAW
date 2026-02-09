@@ -26,7 +26,9 @@ local UICorner_8 = Instance.new("UICorner")
 local FLING = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local EzHub = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_10 = Ins
+
+0tance.new("UICorner")
 local UICorner_11 = Instance.new("UICorner")
 local HeadBang = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
