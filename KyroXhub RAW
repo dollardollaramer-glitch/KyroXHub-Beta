@@ -5,52 +5,53 @@
 
 local KyroXHub = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
-local SideFrame = Instance.new("Frame")
-local Logo = Instance.new("TextLabel")
 local UICorner = Instance.new("UICorner")
-local Credits = Instance.new("TextLabel")
-local UICorner_2 = Instance.new("UICorner")
-local UICorner_3 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local UICorner_4 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local BladeBall = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local InfYield = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local SanderXY = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local TrowHack = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local prisonlife = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local AimBot = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local FLING = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local EzHub = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local HeadBang = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local Trollscript = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local JerkOff = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local sUNC = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local ExecutorDetector = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Orca = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local CoolHub = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local Hi = Instance.new("TextLabel")
+local CommandBox = Instance.new("TextBox")
+local UICorner_20 = Instance.new("UICorner")
+local ExecuteCommand = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local ImageLabel = Instance.new("ImageLabel")
+local ClearButton = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
 
 --Properties:
 
@@ -65,70 +66,17 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderSizePixel = 0
 MainFrame.Position = UDim2.new(0.190397337, 0, 0.120257445, 0)
-MainFrame.Size = UDim2.new(0, 599, 0, 249)
+MainFrame.Size = UDim2.new(0, 919, 0, 465)
 MainFrame.Active = true
 
-SideFrame.Name = "SideFrame"
-SideFrame.Parent = MainFrame
-SideFrame.BackgroundColor3 = Color3.fromRGB(213, 0, 0)
-SideFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SideFrame.BorderSizePixel = 0
-SideFrame.Size = UDim2.new(0, 100, 0, 249)
-
-Logo.Name = "Logo"
-Logo.Parent = SideFrame
-Logo.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Logo.BorderSizePixel = 0
-Logo.Size = UDim2.new(0, 100, 0, 27)
-Logo.Font = Enum.Font.SourceSans
-Logo.Text = "KyroX Hub"
-Logo.TextColor3 = Color3.fromRGB(0, 0, 0)
-Logo.TextScaled = true
-Logo.TextSize = 40.000
-Logo.TextWrapped = true
-
-UICorner.Parent = Logo
-
-Credits.Name = "Credits"
-Credits.Parent = SideFrame
-Credits.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
-Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Credits.BorderSizePixel = 0
-Credits.Position = UDim2.new(0, 0, 0.879518092, 0)
-Credits.Size = UDim2.new(0, 100, 0, 30)
-Credits.Font = Enum.Font.SourceSans
-Credits.Text = "Made by SynkNull"
-Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
-Credits.TextScaled = true
-Credits.TextSize = 40.000
-Credits.TextWrapped = true
-
-UICorner_2.Parent = Credits
-
-UICorner_3.Parent = SideFrame
-
-TextLabel.Parent = SideFrame
-TextLabel.BackgroundColor3 = Color3.fromRGB(213, 213, 213)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0, 0, 0.108433738, 0)
-TextLabel.Size = UDim2.new(0, 100, 0, 192)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "UPDATE: removed 1 script add 6 more scripts"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-UICorner_4.Parent = MainFrame
+UICorner.Parent = MainFrame
 
 Close.Name = "Close"
 Close.Parent = MainFrame
 Close.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Close.BorderSizePixel = 0
-Close.Position = UDim2.new(0.954787195, 0, 0, 0)
+Close.Position = UDim2.new(0.970021188, 0, 0, 0)
 Close.Size = UDim2.new(0, 27, 0, 27)
 Close.Font = Enum.Font.SourceSans
 Close.Text = "X"
@@ -137,43 +85,43 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-UICorner_5.Parent = Close
+UICorner_2.Parent = Close
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.25680086, 0, 0.0129032256, 0)
+TextLabel.Size = UDim2.new(0, 445, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "HomePage"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
 TextLabel_2.Parent = MainFrame
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.377440333, 0, 0, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 27)
+TextLabel_2.Position = UDim2.new(0.650813699, 0, 0.832309902, 0)
+TextLabel_2.Size = UDim2.new(0, 320, 0, 47)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "HomePage/Scripts"
+TextLabel_2.Text = "V0.4.beta "
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
-
-TextLabel_3.Parent = MainFrame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.779784739, 0, 0.120481931, 0)
-TextLabel_3.Size = UDim2.new(0, 131, 0, 47)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "V0.3.beta "
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
 
 ScrollingFrame.Parent = MainFrame
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(220, 0, 0)
 ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(0.183544129, 0, 0.104491204, 0)
-ScrollingFrame.Size = UDim2.new(0, 350, 0, 207)
+ScrollingFrame.Position = UDim2.new(0.650813699, 0, 0.0722332075, 0)
+ScrollingFrame.Size = UDim2.new(0, 316, 0, 321)
 
 BladeBall.Name = "BladeBall"
 BladeBall.Parent = ScrollingFrame
@@ -187,42 +135,42 @@ BladeBall.Text = "BladeBall"
 BladeBall.TextColor3 = Color3.fromRGB(0, 0, 0)
 BladeBall.TextSize = 14.000
 
-UICorner_6.Parent = BladeBall
+UICorner_3.Parent = BladeBall
 
 InfYield.Name = "InfYield"
 InfYield.Parent = ScrollingFrame
 InfYield.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 InfYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
 InfYield.BorderSizePixel = 0
-InfYield.Position = UDim2.new(0.0492978357, 0, 0.12802431, 0)
+InfYield.Position = UDim2.new(0.0407264046, 0, 0.0699597746, 0)
 InfYield.Size = UDim2.new(0, 93, 0, 47)
 InfYield.Font = Enum.Font.SourceSans
 InfYield.Text = "Inf yield"
 InfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
 InfYield.TextSize = 14.000
 
-UICorner_7.Parent = InfYield
+UICorner_4.Parent = InfYield
 
 SanderXY.Name = "SanderXY"
 SanderXY.Parent = ScrollingFrame
 SanderXY.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 SanderXY.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SanderXY.BorderSizePixel = 0
-SanderXY.Position = UDim2.new(0.67029351, 0, 0.129309967, 0)
+SanderXY.Position = UDim2.new(0.667436361, 0, 0.0690949112, 0)
 SanderXY.Size = UDim2.new(0, 93, 0, 47)
 SanderXY.Font = Enum.Font.SourceSans
 SanderXY.Text = "SanderXY"
 SanderXY.TextColor3 = Color3.fromRGB(0, 0, 0)
 SanderXY.TextSize = 14.000
 
-UICorner_8.Parent = SanderXY
+UICorner_5.Parent = SanderXY
 
 TrowHack.Name = "TrowHack"
 TrowHack.Parent = ScrollingFrame
 TrowHack.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 TrowHack.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TrowHack.BorderSizePixel = 0
-TrowHack.Position = UDim2.new(0.0461998656, 0, 0.250061214, 0)
+TrowHack.Position = UDim2.new(0.0461998656, 0, 0.131781623, 0)
 TrowHack.Size = UDim2.new(0, 93, 0, 47)
 TrowHack.Font = Enum.Font.SourceSans
 TrowHack.Text = "Trowhack (BACKDOOR ONLY)"
@@ -231,21 +179,21 @@ TrowHack.TextScaled = true
 TrowHack.TextSize = 14.000
 TrowHack.TextWrapped = true
 
-UICorner_9.Parent = TrowHack
+UICorner_6.Parent = TrowHack
 
 prisonlife.Name = "prisonlife"
 prisonlife.Parent = ScrollingFrame
 prisonlife.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 prisonlife.BorderColor3 = Color3.fromRGB(0, 0, 0)
 prisonlife.BorderSizePixel = 0
-prisonlife.Position = UDim2.new(0.362524062, 0, 0.128114104, 0)
+prisonlife.Position = UDim2.new(0.359666914, 0, 0.0700495914, 0)
 prisonlife.Size = UDim2.new(0, 93, 0, 47)
 prisonlife.Font = Enum.Font.SourceSans
 prisonlife.Text = "Prison life script"
 prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
 prisonlife.TextSize = 14.000
 
-UICorner_10.Parent = prisonlife
+UICorner_7.Parent = prisonlife
 
 AimBot.Name = "AimBot"
 AimBot.Parent = ScrollingFrame
@@ -261,7 +209,7 @@ AimBot.TextScaled = true
 AimBot.TextSize = 14.000
 AimBot.TextWrapped = true
 
-UICorner_11.Parent = AimBot
+UICorner_8.Parent = AimBot
 
 FLING.Name = "FLING"
 FLING.Parent = ScrollingFrame
@@ -277,14 +225,14 @@ FLING.TextScaled = true
 FLING.TextSize = 14.000
 FLING.TextWrapped = true
 
-UICorner_12.Parent = FLING
+UICorner_9.Parent = FLING
 
 EzHub.Name = "EzHub"
 EzHub.Parent = ScrollingFrame
 EzHub.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 EzHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
 EzHub.BorderSizePixel = 0
-EzHub.Position = UDim2.new(0.670134127, 0, 0.250514269, 0)
+EzHub.Position = UDim2.new(0.667276978, 0, 0.132234707, 0)
 EzHub.Size = UDim2.new(0, 93, 0, 47)
 EzHub.Font = Enum.Font.SourceSans
 EzHub.Text = "EzHub"
@@ -293,133 +241,201 @@ EzHub.TextScaled = true
 EzHub.TextSize = 14.000
 EzHub.TextWrapped = true
 
-UICorner_13.Parent = EzHub
+UICorner_10.Parent = EzHub
 
-UICorner_14.Parent = ScrollingFrame
+UICorner_11.Parent = ScrollingFrame
 
 HeadBang.Name = "HeadBang"
 HeadBang.Parent = ScrollingFrame
 HeadBang.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 HeadBang.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HeadBang.BorderSizePixel = 0
-HeadBang.Position = UDim2.new(0.0435835496, 0, 0.368988156, 0)
+HeadBang.Position = UDim2.new(0.0407264046, 0, 0.196945161, 0)
 HeadBang.Size = UDim2.new(0, 93, 0, 47)
 HeadBang.Font = Enum.Font.SourceSans
 HeadBang.Text = "HeadBang"
 HeadBang.TextColor3 = Color3.fromRGB(0, 0, 0)
 HeadBang.TextSize = 14.000
 
-UICorner_15.Parent = HeadBang
+UICorner_12.Parent = HeadBang
 
 Trollscript.Name = "Trollscript"
 Trollscript.Parent = ScrollingFrame
 Trollscript.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 Trollscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Trollscript.BorderSizePixel = 0
-Trollscript.Position = UDim2.new(0.3622576, 0, 0.250514269, 0)
+Trollscript.Position = UDim2.new(0.359400451, 0, 0.131159425, 0)
 Trollscript.Size = UDim2.new(0, 93, 0, 47)
 Trollscript.Font = Enum.Font.SourceSans
 Trollscript.Text = "SkyHub"
 Trollscript.TextColor3 = Color3.fromRGB(0, 0, 0)
 Trollscript.TextSize = 14.000
 
-UICorner_16.Parent = Trollscript
+UICorner_13.Parent = Trollscript
 
 JerkOff.Name = "JerkOff"
 JerkOff.Parent = ScrollingFrame
 JerkOff.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 JerkOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
 JerkOff.BorderSizePixel = 0
-JerkOff.Position = UDim2.new(0.360726327, 0, 0.368988156, 0)
+JerkOff.Position = UDim2.new(0.357869118, 0, 0.19479464, 0)
 JerkOff.Size = UDim2.new(0, 93, 0, 47)
 JerkOff.Font = Enum.Font.SourceSans
 JerkOff.Text = "Jerk off"
 JerkOff.TextColor3 = Color3.fromRGB(0, 0, 0)
 JerkOff.TextSize = 14.000
 
-UICorner_17.Parent = JerkOff
+UICorner_14.Parent = JerkOff
 
 sUNC.Name = "sUNC"
 sUNC.Parent = ScrollingFrame
 sUNC.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 sUNC.BorderColor3 = Color3.fromRGB(0, 0, 0)
 sUNC.BorderSizePixel = 0
-sUNC.Position = UDim2.new(0.669297755, 0, 0.368988156, 0)
+sUNC.Position = UDim2.new(0.666440606, 0, 0.194794625, 0)
 sUNC.Size = UDim2.new(0, 93, 0, 47)
 sUNC.Font = Enum.Font.SourceSans
 sUNC.Text = "sUNC Test"
 sUNC.TextColor3 = Color3.fromRGB(0, 0, 0)
 sUNC.TextSize = 14.000
 
-UICorner_18.Parent = sUNC
+UICorner_15.Parent = sUNC
 
 ExecutorDetector.Name = "ExecutorDetector"
 ExecutorDetector.Parent = ScrollingFrame
 ExecutorDetector.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 ExecutorDetector.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ExecutorDetector.BorderSizePixel = 0
-ExecutorDetector.Position = UDim2.new(0.0435834602, 0, 0.485454023, 0)
+ExecutorDetector.Position = UDim2.new(0.0404189862, 0, 0.262873411, 0)
 ExecutorDetector.Size = UDim2.new(0, 93, 0, 47)
 ExecutorDetector.Font = Enum.Font.SourceSans
 ExecutorDetector.Text = "Executor Detector"
 ExecutorDetector.TextColor3 = Color3.fromRGB(0, 0, 0)
 ExecutorDetector.TextSize = 14.000
 
-UICorner_19.Parent = ExecutorDetector
+UICorner_16.Parent = ExecutorDetector
 
 Orca.Name = "Orca"
 Orca.Parent = ScrollingFrame
 Orca.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 Orca.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Orca.BorderSizePixel = 0
-Orca.Position = UDim2.new(0.360726327, 0, 0.487462044, 0)
+Orca.Position = UDim2.new(0.357561707, 0, 0.263806164, 0)
 Orca.Size = UDim2.new(0, 93, 0, 47)
 Orca.Font = Enum.Font.SourceSans
 Orca.Text = "Orca"
 Orca.TextColor3 = Color3.fromRGB(0, 0, 0)
 Orca.TextSize = 14.000
 
-UICorner_20.Parent = Orca
+UICorner_17.Parent = Orca
 
 CoolHub.Name = "CoolHub"
 CoolHub.Parent = ScrollingFrame
 CoolHub.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
 CoolHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
 CoolHub.BorderSizePixel = 0
-CoolHub.Position = UDim2.new(0.669297755, 0, 0.487462044, 0)
+CoolHub.Position = UDim2.new(0.666133046, 0, 0.263806134, 0)
 CoolHub.Size = UDim2.new(0, 93, 0, 47)
 CoolHub.Font = Enum.Font.SourceSans
 CoolHub.Text = "CoolHub"
 CoolHub.TextColor3 = Color3.fromRGB(0, 0, 0)
 CoolHub.TextSize = 14.000
 
-UICorner_21.Parent = CoolHub
+UICorner_18.Parent = CoolHub
 
-TextLabel_4.Parent = MainFrame
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(0.779784739, 0, 0.738955796, 0)
-TextLabel_4.Size = UDim2.new(0, 131, 0, 47)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "https://discord.gg/Ch6sk633RD"
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
+TextLabel_3.Parent = MainFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.650813699, 0, 0.762611687, 0)
+TextLabel_3.Size = UDim2.new(0, 315, 0, 32)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "https://discord.gg/Ch6sk633RD"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
 
-ImageLabel.Parent = MainFrame
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0.779632747, 0, 0.293172687, 0)
-ImageLabel.Size = UDim2.new(0, 123, 0, 124)
-ImageLabel.Image = "rbxassetid://90239247275771"
+Credits.Name = "Credits"
+Credits.Parent = MainFrame
+Credits.BackgroundColor3 = Color3.fromRGB(198, 0, 3)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(-0.000367140747, 0, 0.93442148, 0)
+Credits.Size = UDim2.new(0, 919, 0, 30)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Made by SynkNull"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 40.000
+Credits.TextWrapped = true
+
+UICorner_19.Parent = Credits
+
+Hi.Name = "Hi"
+Hi.Parent = MainFrame
+Hi.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hi.BackgroundTransparency = 1.000
+Hi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hi.BorderSizePixel = 0
+Hi.Position = UDim2.new(-0.00120805111, 0, 0.825806439, 0)
+Hi.Size = UDim2.new(0, 599, 0, 50)
+Hi.Font = Enum.Font.SourceSans
+Hi.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hi.TextScaled = true
+Hi.TextSize = 14.000
+Hi.TextWrapped = true
+
+CommandBox.Name = "CommandBox"
+CommandBox.Parent = MainFrame
+CommandBox.BackgroundColor3 = Color3.fromRGB(152, 0, 0)
+CommandBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CommandBox.BorderSizePixel = 0
+CommandBox.Position = UDim2.new(0.0228509251, 0, 0.0795698911, 0)
+CommandBox.Size = UDim2.new(0, 553, 0, 289)
+CommandBox.Font = Enum.Font.SourceSans
+CommandBox.PlaceholderColor3 = Color3.fromRGB(200, 12, 12)
+CommandBox.PlaceholderText = "-- can only run commands that are whitelisted--"
+CommandBox.Text = ""
+CommandBox.TextColor3 = Color3.fromRGB(255, 0, 0)
+CommandBox.TextScaled = true
+CommandBox.TextSize = 14.000
+CommandBox.TextWrapped = true
+
+UICorner_20.Parent = CommandBox
+
+ExecuteCommand.Name = "ExecuteCommand"
+ExecuteCommand.Parent = MainFrame
+ExecuteCommand.BackgroundColor3 = Color3.fromRGB(188, 0, 0)
+ExecuteCommand.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuteCommand.BorderSizePixel = 0
+ExecuteCommand.Position = UDim2.new(0.0435255729, 0, 0.718279541, 0)
+ExecuteCommand.Size = UDim2.new(0, 200, 0, 50)
+ExecuteCommand.Font = Enum.Font.SourceSans
+ExecuteCommand.Text = "Execute"
+ExecuteCommand.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExecuteCommand.TextSize = 14.000
+
+UICorner_21.Parent = ExecuteCommand
+
+ClearButton.Name = "ClearButton"
+ClearButton.Parent = MainFrame
+ClearButton.BackgroundColor3 = Color3.fromRGB(188, 0, 0)
+ClearButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ClearButton.BorderSizePixel = 0
+ClearButton.Position = UDim2.new(0.384113163, 0, 0.718279541, 0)
+ClearButton.Size = UDim2.new(0, 200, 0, 50)
+ClearButton.Font = Enum.Font.SourceSans
+ClearButton.Text = "Clear"
+ClearButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ClearButton.TextSize = 14.000
+
+UICorner_22.Parent = ClearButton
 
 -- Scripts:
 
-local function ARXK_fake_script() -- MainFrame.LocalScript 
+local function DNJRXV_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -476,8 +492,8 @@ local function ARXK_fake_script() -- MainFrame.LocalScript
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(ARXK_fake_script)()
-local function TIQG_fake_script() -- Close.LocalScript 
+coroutine.wrap(DNJRXV_fake_script)()
+local function JELSC_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local Close = script.Parent
@@ -487,8 +503,8 @@ local function TIQG_fake_script() -- Close.LocalScript
 		MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(TIQG_fake_script)()
-local function QVSSFMG_fake_script() -- BladeBall.LocalScript 
+coroutine.wrap(JELSC_fake_script)()
+local function NWKCUI_fake_script() -- BladeBall.LocalScript 
 	local script = Instance.new('LocalScript', BladeBall)
 
 	BladeBall.MouseButton1Down:connect(function()
@@ -496,8 +512,8 @@ local function QVSSFMG_fake_script() -- BladeBall.LocalScript
 	end)
 	
 end
-coroutine.wrap(QVSSFMG_fake_script)()
-local function MCPB_fake_script() -- InfYield.LocalScript 
+coroutine.wrap(NWKCUI_fake_script)()
+local function MKIXFVO_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
 	InfYield.MouseButton1Down:connect(function()
@@ -506,8 +522,8 @@ local function MCPB_fake_script() -- InfYield.LocalScript
 	end)
 	
 end
-coroutine.wrap(MCPB_fake_script)()
-local function EOGWYN_fake_script() -- SanderXY.LocalScript 
+coroutine.wrap(MKIXFVO_fake_script)()
+local function XQQJ_fake_script() -- SanderXY.LocalScript 
 	local script = Instance.new('LocalScript', SanderXY)
 
 	SanderXY.MouseButton1Down:connect(function()
@@ -516,8 +532,8 @@ local function EOGWYN_fake_script() -- SanderXY.LocalScript
 	end)
 	
 end
-coroutine.wrap(EOGWYN_fake_script)()
-local function WLIX_fake_script() -- TrowHack.LocalScript 
+coroutine.wrap(XQQJ_fake_script)()
+local function VCSHBN_fake_script() -- TrowHack.LocalScript 
 	local script = Instance.new('LocalScript', TrowHack)
 
 	TrowHack.MouseButton1Down:connect(function()
@@ -526,8 +542,8 @@ local function WLIX_fake_script() -- TrowHack.LocalScript
 	end)
 	
 end
-coroutine.wrap(WLIX_fake_script)()
-local function JWJFQ_fake_script() -- prisonlife.LocalScript 
+coroutine.wrap(VCSHBN_fake_script)()
+local function QDJS_fake_script() -- prisonlife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	prisonlife.MouseButton1Down:connect(function()
@@ -536,8 +552,8 @@ local function JWJFQ_fake_script() -- prisonlife.LocalScript
 	end)
 	
 end
-coroutine.wrap(JWJFQ_fake_script)()
-local function NHUPPAI_fake_script() -- AimBot.LocalScript 
+coroutine.wrap(QDJS_fake_script)()
+local function ORMZTV_fake_script() -- AimBot.LocalScript 
 	local script = Instance.new('LocalScript', AimBot)
 
 	AimBot.MouseButton1Down:connect(function()
@@ -546,8 +562,8 @@ local function NHUPPAI_fake_script() -- AimBot.LocalScript
 	end)
 	
 end
-coroutine.wrap(NHUPPAI_fake_script)()
-local function VZDDK_fake_script() -- FLING.LocalScript 
+coroutine.wrap(ORMZTV_fake_script)()
+local function OQQYS_fake_script() -- FLING.LocalScript 
 	local script = Instance.new('LocalScript', FLING)
 
 	FLING.MouseButton1Down:connect(function()
@@ -559,8 +575,8 @@ local function VZDDK_fake_script() -- FLING.LocalScript
 	end)
 	
 end
-coroutine.wrap(VZDDK_fake_script)()
-local function AVSTLQK_fake_script() -- EzHub.LocalScript 
+coroutine.wrap(OQQYS_fake_script)()
+local function YRHZ_fake_script() -- EzHub.LocalScript 
 	local script = Instance.new('LocalScript', EzHub)
 
 	EzHub.MouseButton1Down:connect(function()
@@ -569,8 +585,8 @@ local function AVSTLQK_fake_script() -- EzHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(AVSTLQK_fake_script)()
-local function RWKUVX_fake_script() -- HeadBang.LocalScript 
+coroutine.wrap(YRHZ_fake_script)()
+local function QLVK_fake_script() -- HeadBang.LocalScript 
 	local script = Instance.new('LocalScript', HeadBang)
 
 	HeadBang.MouseButton1Down:connect(function()
@@ -579,8 +595,8 @@ local function RWKUVX_fake_script() -- HeadBang.LocalScript
 	end)
 	
 end
-coroutine.wrap(RWKUVX_fake_script)()
-local function CRZDX_fake_script() -- Trollscript.LocalScript 
+coroutine.wrap(QLVK_fake_script)()
+local function IBJSDLB_fake_script() -- Trollscript.LocalScript 
 	local script = Instance.new('LocalScript', Trollscript)
 
 	Trollscript.MouseButton1Down:connect(function()
@@ -589,8 +605,8 @@ local function CRZDX_fake_script() -- Trollscript.LocalScript
 	end)
 	
 end
-coroutine.wrap(CRZDX_fake_script)()
-local function PGOZJ_fake_script() -- JerkOff.LocalScript 
+coroutine.wrap(IBJSDLB_fake_script)()
+local function EJBIULO_fake_script() -- JerkOff.LocalScript 
 	local script = Instance.new('LocalScript', JerkOff)
 
 	JerkOff.MouseButton1Down:connect(function()
@@ -599,8 +615,8 @@ local function PGOZJ_fake_script() -- JerkOff.LocalScript
 	end)
 	
 end
-coroutine.wrap(PGOZJ_fake_script)()
-local function QIQV_fake_script() -- sUNC.LocalScript 
+coroutine.wrap(EJBIULO_fake_script)()
+local function RUMJRS_fake_script() -- sUNC.LocalScript 
 	local script = Instance.new('LocalScript', sUNC)
 
 	sUNC.MouseButton1Down:connect(function()
@@ -682,8 +698,8 @@ local function QIQV_fake_script() -- sUNC.LocalScript
 	end)
 	
 end
-coroutine.wrap(QIQV_fake_script)()
-local function RFJB_fake_script() -- ExecutorDetector.LocalScript 
+coroutine.wrap(RUMJRS_fake_script)()
+local function SIJPI_fake_script() -- ExecutorDetector.LocalScript 
 	local script = Instance.new('LocalScript', ExecutorDetector)
 
 	ExecutorDetector.MouseButton1Down:connect(function()
@@ -747,8 +763,8 @@ local function RFJB_fake_script() -- ExecutorDetector.LocalScript
 	end)
 	
 end
-coroutine.wrap(RFJB_fake_script)()
-local function YMXE_fake_script() -- Orca.LocalScript 
+coroutine.wrap(SIJPI_fake_script)()
+local function OVMJZC_fake_script() -- Orca.LocalScript 
 	local script = Instance.new('LocalScript', Orca)
 
 	Orca.MouseButton1Down:connect(function()
@@ -758,8 +774,8 @@ local function YMXE_fake_script() -- Orca.LocalScript
 	end)
 	
 end
-coroutine.wrap(YMXE_fake_script)()
-local function MSDX_fake_script() -- CoolHub.LocalScript 
+coroutine.wrap(OVMJZC_fake_script)()
+local function QKNWVPE_fake_script() -- CoolHub.LocalScript 
 	local script = Instance.new('LocalScript', CoolHub)
 
 	CoolHub.MouseButton1Down:connect(function()
@@ -769,4 +785,183 @@ local function MSDX_fake_script() -- CoolHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(MSDX_fake_script)()
+coroutine.wrap(QKNWVPE_fake_script)()
+local function ZBAVZF_fake_script() -- Hi.LocalScript 
+	local script = Instance.new('LocalScript', Hi)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	-- wait for gui
+	local gui = player:WaitForChild("PlayerGui"):WaitForChild("KyroX Hub")
+	
+	-- keep trying until we get the REAL label
+	task.spawn(function()
+		while true do
+			local hi = gui:FindFirstChild("Hi", true)
+			if hi and hi:IsA("TextLabel") then
+				hi.Text = "Welcome, " .. player.Name
+				hi:GetPropertyChangedSignal("Text"):Connect(function()
+					hi.Text = "Welcome, " .. player.Name
+				end)
+				break
+			end
+			task.wait(0.1)
+		end
+	end)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(ZBAVZF_fake_script)()
+local function AIBDDS_fake_script() -- ClearButton.LocalScript 
+	local script = Instance.new('LocalScript', ClearButton)
+
+	local ClearButton = script.Parent
+	local CommandBox = ClearButton.Parent:WaitForChild("CommandBox")
+	
+	ClearButton.MouseButton1Click:Connect(function()
+		CommandBox.Text = ""
+	end)
+	
+end
+coroutine.wrap(AIBDDS_fake_script)()
+local function MCQUAO_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	-- Services
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local LocalPlayer = Players.LocalPlayer
+	local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+	
+	-- Registry
+	local AllowedScripts = {}
+	
+	-- Store connections so we can disconnect them later
+	local ActiveConnections = {}
+	
+	local function RegisterGui(info)
+		-- Lowercase name for consistency
+		AllowedScripts[info.name:lower()] = info
+	end
+	
+	local function RunGui(name)
+		local s = AllowedScripts[name:lower()]
+		if not s then return end
+	
+		-- Prevent multiple runs
+		if s._running then return end
+		s._running = true
+	
+		-- Disconnect any old connections if they exist
+		if ActiveConnections[name] then
+			for _, conn in ipairs(ActiveConnections[name]) do
+				conn:Disconnect()
+			end
+		end
+		ActiveConnections[name] = {}
+	
+		-- Run the script
+		local conns = s.run()
+		if conns then
+			ActiveConnections[name] = conns
+		end
+	end
+	
+	-- ==========================
+	-- Example: Fly GUI
+	-- ==========================
+	RegisterGui({
+		name = "fly",
+		description = "Fly GUI",
+		category = "Movement",
+		run = function()
+			local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+			local hrp = char:WaitForChild("HumanoidRootPart")
+			local humanoid = char:WaitForChild("Humanoid")
+	
+			local flying = false
+			local bv, bg
+			local speed = 50
+	
+			local conns = {}
+	
+			local function startFly()
+				if flying then return end
+				flying = true
+	
+				humanoid:ChangeState(Enum.HumanoidStateType.Physics)
+	
+				bv = Instance.new("BodyVelocity")
+				bv.MaxForce = Vector3.new(1e9, 1e9, 1e9)
+				bv.Velocity = Vector3.zero
+				bv.Parent = hrp
+	
+				bg = Instance.new("BodyGyro")
+				bg.MaxTorque = Vector3.new(1e9, 1e9, 1e9)
+				bg.CFrame = hrp.CFrame
+				bg.Parent = hrp
+			end
+	
+			local function stopFly()
+				if not flying then return end
+				flying = false
+	
+				if bv then bv:Destroy() bv = nil end
+				if bg then bg:Destroy() bg = nil end
+	
+				humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+			end
+	
+			-- Toggle with G
+			table.insert(conns, UserInputService.InputBegan:Connect(function(input, gpe)
+				if gpe then return end
+				if input.KeyCode == Enum.KeyCode.G then
+					if flying then
+						stopFly()
+					else
+						startFly()
+					end
+				end
+			end))
+	
+			-- Movement loop
+			table.insert(conns, RunService.RenderStepped:Connect(function()
+				if not flying or not bv or not bg then return end
+	
+				local cam = workspace.CurrentCamera
+				local moveDir = Vector3.zero
+	
+				if UserInputService:IsKeyDown(Enum.KeyCode.W) then moveDir += cam.CFrame.LookVector end
+				if UserInputService:IsKeyDown(Enum.KeyCode.S) then moveDir -= cam.CFrame.LookVector end
+				if UserInputService:IsKeyDown(Enum.KeyCode.A) then moveDir -= cam.CFrame.RightVector end
+				if UserInputService:IsKeyDown(Enum.KeyCode.D) then moveDir += cam.CFrame.RightVector end
+				if UserInputService:IsKeyDown(Enum.KeyCode.Space) then moveDir += Vector3.new(0,1,0) end
+				if UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) then moveDir -= Vector3.new(0,1,0) end
+	
+				if moveDir.Magnitude > 0 then
+					bv.Velocity = moveDir.Unit * speed
+				else
+					bv.Velocity = Vector3.zero
+				end
+	
+				bg.CFrame = cam.CFrame
+			end))
+	
+			return conns -- return connections so RunGui can track/disconnect
+		end
+	})
+	
+	-- ==========================
+	-- Run Fly GUI
+	-- ==========================
+	RunGui("fly")
+	
+	
+end
+coroutine.wrap(MCQUAO_fake_script)()
